@@ -1,0 +1,42 @@
+# Archivos generados por el sistema operativo
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Archivos de IDE y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Archivos de logs
+*.log
+logs/
+
+# Archivos temporales
+*.tmp
+*.bak
+*.temp
+
+# Archivos de configuración local
+.env
+.env.local
+.env.*.local
+
+# Directorios de dependencias (si se usan en el futuro)
+node_modules/
+vendor/
+
+# Archivos de compilación o distribución (si se usan en el futuro)
+dist/
+build/
+out/
+
+# Archivos de imágenes temporales o cache (opcional)
+*.cache
+*.min.*

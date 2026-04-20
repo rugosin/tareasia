@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Descubre Todo Sobre Tu Schnauzer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <header class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Descubre Todo Sobre Tu Schnauzer</p>
+          <h1>Sube una foto y obtén toda la información sobre tu perro</h1>
+        </div>
+      </header>
+
+      <section class="upload-panel">
+        <div class="upload-header">
+          <h2>Sube la Foto de tu Schnauzer:</h2>
+        </div>
+
+        <div class="upload-card" id="dropArea">
+          <div class="upload-content">
+            <button class="upload-button" type="button" id="uploadButton">Subir Foto</button>
+            <p class="upload-hint">Arrastra o selecciona una imagen...</p>
+            <input id="fileInput" type="file" accept="image/*" />
+          </div>
+        </div>
+
+        <div class="status-panel">
+          <div class="breed-cards" id="breedCards">
+            <article class="breed-card current-breed" data-breed="schnauzer-miniatura">
+              <span class="card-icon">🐾</span>
+              <div>
+                <h3>Schnauzer Miniatura</h3>
+                <p>Pequeño, valiente y alerta. Ideal como perro de compañía y guardián.</p>
+              </div>
+            </article>
+
+            <article class="breed-card future-breed" data-breed="future-breed">
+              <span class="card-icon">✨</span>
+              <div>
+                <h3>Próxima raza</h3>
+                <p>Preparado para admitir más razas con información estática en el futuro.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="analysis-panel">
+        <h2>Tu Schnauzer Analizado:</h2>
+        <div class="preview-card">
+          <img
+            id="previewImage"
+            src="https://images.unsplash.com/photo-1517849845537-4d257902454a?auto=format&fit=crop&w=900&q=80"
+            alt="Previsualización de Schnauzer"
+          />
+        </div>
+        <div class="action-row">
+          <button class="primary-button" type="button">Obtener Información</button>
+        </div>
+      </section>
+
+      <section class="info-grid">
+        <article class="info-card">
+          <span class="info-icon">🦮</span>
+          <h3>Raza del Perro</h3>
+          <p>Schnauzer Miniatura</p>
+          <p>Pequeño, valiente y alerta. Ideal como perro de compañía y guardián.</p>
+        </article>
+
+        <article class="info-card">
+          <span class="info-icon">🧼</span>
+          <h3>Cuidados Específicos</h3>
+          <ul>
+            <li>Cepillado y corte regular de su pelaje.</li>
+            <li>Ejercicio diario y dieta saludable.</li>
+          </ul>
+        </article>
+
+        <article class="info-card">
+          <span class="info-icon">📜</span>
+          <h3>Historia de la Raza</h3>
+          <p>Originario de Alemania. Criado para la caza de roedores y como perro guardián.</p>
+        </article>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
